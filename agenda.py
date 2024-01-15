@@ -1,8 +1,6 @@
 from time import sleep
 agenda = {}
 
-
-
 def teleInt(msg):
     while True:
         try:
@@ -15,11 +13,11 @@ def teleInt(msg):
             return 0
         else:
             return n
-        
 
 
 def linha(tam=42):
     return '-' * tam
+
 
 def cabeçalho(txt):
     print(linha())
@@ -39,11 +37,9 @@ def menu(lista):
     return opc
 
 
-
 def inluirConta(nome='desconhecido', telefone=0):
     try:        
         agenda[nome]=telefone
-        
     except:
         print('Houve um ERRO ao inserir os dados!')
     else:
@@ -73,8 +69,7 @@ def alterarContato(nome, telefone):
                 break
             if resp not in 'SN':
                 print('Opção inválida')
-            
-                
+               
                         
 def consultarContatos():
     if len(agenda)==0:
