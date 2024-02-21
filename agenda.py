@@ -13,11 +13,9 @@ def teleInt(msg):
             return 0
         else:
             return n
-
-
+        
 def linha(tam=42):
     return '-' * tam
-
 
 def cabeçalho(txt):
     print(linha())
@@ -36,10 +34,10 @@ def menu(lista):
     opc = teleInt('\033[36mSua opção: \033[m')
     return opc
 
-
 def inluirConta(nome='desconhecido', telefone=0):
     try:        
         agenda[nome]=telefone
+        
     except:
         print('Houve um ERRO ao inserir os dados!')
     else:
@@ -69,8 +67,7 @@ def alterarContato(nome, telefone):
                 break
             if resp not in 'SN':
                 print('Opção inválida')
-               
-                        
+            
 def consultarContatos():
     if len(agenda)==0:
         print("Agenda vazia!!")
@@ -110,7 +107,7 @@ def excluirContato(nome):
             sleep(1.5)
             print('Contato excluido😩')
         elif resp in 'N':
-            print('Contato permanecerar na agenda')
+            print('Contato permanecerá na agenda')
         else:
             print('Resposta inválida')
     else:
@@ -163,10 +160,3 @@ while True:
         case _:
             print('\033[0;30;41mERRO! Digite uma opção válida!\033[m')
     sleep(2)
-
-
-
-    
-
-
-
