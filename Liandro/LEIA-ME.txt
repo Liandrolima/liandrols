@@ -1,0 +1,9 @@
+1 - Nesse módulo forma criados os seguinte arquivos: principal.py, menu.py, funcoes.py, confg.py.
+
+2 - No arquivo confg.py estão as funções matricInt, lina e cabeçalho.
+
+3 - No arquivo menu.py que configura o menu. Par ela importa-se confg.py.
+
+4 - no arquivo funcoes.py estão as funções principais do programa: AdicionarAluno, RemoverAluno, AtualizarAluno, VerAlunos.
+
+5 - Já o arquivo principal.py serve para iniciar a aplicação.
