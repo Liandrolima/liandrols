@@ -63,7 +63,7 @@ def batalha(personagem):
         pontos_vida_inimigo -= dano
         messagebox.showinfo("Pontos de Vida do Inimigo", f"Pontos de Vida do inimigo: {pontos_vida_inimigo}")
         if pontos_vida_inimigo <= 0:
-            messagebox.showinfo("Fim da Batalha", f"GRANDE VITÓRIA {personagem.nome} \nRECEBA O SEU \N🏆")
+            messagebox.showinfo("Fim da Batalha", rf"GRANDE VITÓRIA {personagem.nome} \nRECEBA O SEU \N🏆")
             personagem.nivel += 1
             messagebox.showinfo("Nível", f"{personagem.nome} subiu para o nível {personagem.nivel}!")
             break
