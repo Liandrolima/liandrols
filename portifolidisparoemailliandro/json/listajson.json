@@ -1,0 +1,24 @@
+{
+  "clientes": [
+    {
+      "nome": "Patricia Souza",
+      "email": "patricia@example.com"
+    },
+    {
+      "nome": "Rafaela Oliveira",
+      "email": "rafaela@example.com"
+    },
+    {
+      "nome": "Bruno Santos",
+      "email": "bruno@example.com"
+    },
+    {
+      "nome": "Fernando Silva",
+      "email": "fernando@example.com"
+    },
+    {
+      "nome": "Carla Pereira",
+      "email": "carla@example.com"
+    }
+  ]
+}
